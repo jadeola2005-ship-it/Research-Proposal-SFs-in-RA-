@@ -41,7 +41,7 @@ go_results <- enrichGO(
 )
 
 
-# Protein to Protein interactionb network (STRINGdb)
+# Protein to Protein interaction network (STRINGdb)
 string_db <- STRINGdb$new(version = "12", species = 9606, score_threshold = 400)
 mapped <- string_db$map(data.frame(gene = sig_genes), "gene", removeUnmapped = TRUE)
 ppi_network <- string_db$get_interactions(mapped$STRING_id)
@@ -68,3 +68,4 @@ ggplot(pcaData, aes(PC1, PC2, colour = condition)) +
   xlab(paste0("PC1: ", percentVar[1], "% variance")) +
   ylab(paste0("PC2: ", percentVar[2], "% variance")) +
   ggtitle("PCA of WT, R620W, and KO Synovial Fibroblasts")
+
