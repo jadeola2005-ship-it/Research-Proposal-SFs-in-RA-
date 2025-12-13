@@ -1,6 +1,6 @@
 Project Overview 
-This repositroy contains an exaple RNA smequencing analysis workflow designed to support the research proposal in investigating the role of the PTPN22 R620W variant in synovial fibroblasts (SFs) in Rheumatoid arthritis (RA)
-Because no real RNA seq data is availabel for this proposal the worflow uses stimulated sequencing data to demonstrate how the analysis would be performed in a real experimental setting.
+This repositroy contains an example RNA smequencing analysis workflow designed to support the research proposal in investigating the role of the PTPN22 R620W variant in synovial fibroblasts (SFs) in Rheumatoid arthritis (RA)
+Because no real RNA seq data is available for this proposal the worflow uses stimulated sequencing data to demonstrate how the analysis would be performed in a real experimental setting.
 The pipeline reflects standard RNA Seq bioinformatics practice and is intened to show and understand the methods, reproducibility and feasibility.
 
 Research aim 
@@ -73,7 +73,7 @@ Simulated RNA Seq purpose
 - Prepare the analysis frameowrk for future datasets that are real
 
 Summary 
-This repository provides a clear and reproducible example RNA seq worflow that supports the research proposal on the role of PTPN22 R620W in SFs
+This repository provides a clear and reproducible example RNA seq workflow that supports the research proposal on the role of PTPN22 R620W in SFs
 
 
 
