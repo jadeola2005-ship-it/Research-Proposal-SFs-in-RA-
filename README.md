@@ -61,18 +61,21 @@ STRINGdb - Pathway enrichment
 ggplot2 - visualisation 
 
 Key notes 
+
 This is a simulated dataset 
 Biological conclusions could be drawn but the output is hypothetical 
 The script shows how the analysis should be conducted and the results that could be expected 
 tx0ut = TRUE is needed as transcript to gene mappings are not available in simulated data 
 
 Simulated RNA Seq purpose 
-- DEmonstrate a complete and realsitic bioinformatics pipeline
+
+- Demonstrate a complete and realsitic bioinformatics pipeline
 - Show how hypothesis would be tested using RNA Seq
 - provide reproducible and transpoarent methods
 - Prepare the analysis frameowrk for future datasets that are real
 
 Summary 
+
 This repository provides a clear and reproducible example RNA seq workflow that supports the research proposal on the role of PTPN22 R620W in SFs
 
 
