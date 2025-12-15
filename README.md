@@ -1,4 +1,5 @@
 Project Overview 
+
 This repositroy contains an example RNA smequencing analysis workflow designed to support the research proposal in investigating the role of the PTPN22 R620W variant in synovial fibroblasts (SFs) in Rheumatoid arthritis (RA)
 Because no real RNA seq data is available for this proposal the worflow uses stimulated sequencing data to demonstrate how the analysis would be performed in a real experimental setting.
 The pipeline reflects standard RNA Seq bioinformatics practice and is intened to show and understand the methods, reproducibility and feasibility.
@@ -49,8 +50,10 @@ Principle component analysis (PCA)
 PCA is used for variance analysis and quality control not correlation testing
 
 Folder Structure 
+
 when the script is run these files are automatically created 
 <img width="251" height="368" alt="image" src="https://github.com/user-attachments/assets/c177dca3-41ec-4339-9f6b-9d54e97eb5db" />
+
 Each folder contains a quant.sf file 
 
 The R packages used are:
