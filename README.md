@@ -53,7 +53,6 @@ Folder Structure
 
 when the script is run these files are automatically created 
 <img width="251" height="368" alt="image" src="https://github.com/user-attachments/assets/c177dca3-41ec-4339-9f6b-9d54e97eb5db" />
-
 Each folder contains a quant.sf file 
 
 The R packages used are:
