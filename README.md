@@ -1,7 +1,7 @@
 Project Overview 
 
 This repositroy contains an example RNA smequencing analysis workflow designed to support the research proposal in investigating the role of the PTPN22 R620W variant in synovial fibroblasts (SFs) in Rheumatoid arthritis (RA)
-Because no real RNA seq data is available for this proposal the worflow uses stimulated sequencing data to demonstrate how the analysis would be performed in a real experimental setting.
+Because no real RNA seq data is available for this proposal the worflow uses simulated sequencing data to demonstrate how the analysis would be performed in a real experimental setting.
 The pipeline reflects standard RNA Seq bioinformatics practice and is intened to show and understand the methods, reproducibility and feasibility.
 
 Research aim 
@@ -16,15 +16,15 @@ Mitochondrial stress
 Inflammatory signalling 
 
 The R script performs the following steps:
-Stomulates RNA quantification files 
+Simulates RNA quantification files 
 - Genereate realistic Salmon format quant.sf files
 - creates 9 Samples (3WT, 3R620W and 3KO)
 R620W samples show increased autophagy, mithchondrial stress and inflammatory signals
 KO samples mimic loss of PTPN22 function
 
 Imports data using tximport 
-- Read stimulated quant.sf files into R
-- Uses tx0ut = TRUE because the data are stimulated and do not contain transcript gene mappings
+- Read simulated quant.sf files into R
+- Uses tx0ut = TRUE because the data are simulated and do not contain transcript gene mappings
 This steps follows the frameowrk described by (Soneson, 2025)
 
 Performs differential expression analysis with DESeq2 
